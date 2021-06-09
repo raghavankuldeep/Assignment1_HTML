@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Navigation bar with the help of list
+	</title>
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+	<style type="text/css">
+		body{
+			background-color: #05fac1;
+			margin: 0px;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+		}
+		li {
+			float: left;
+		}
+		a {
+			text-decoration: none;
+			padding: 20px;
+			display: block;
+			text-align: center;
+			color: white;
+		}
+		a:hover{
+			background-color: #26b594;
+		}
+		input {
+			padding: 10px;
+			font-size: 20px;
+			margin: 10px;
+		}
+		label{
+			margin: 10px;
+		}
+		
+
+	</style>
+
+</head>
+<body style="background-color: #76b852">
+	<div style="background-color: #43A047">
+		
+				<table>
+					<ul>
+						<li><a href="#Home"> Home</a> </li>
+						<li><a href="#News">News</a></li>
+						<li><a href="#Contacts">Contacts</a></li>
+						<li><a href="About">About</a></li>
+					</ul>
+				</table>
+		
+	
+	</div>
+	<div style="padding-left: 50px; font-size: 20px">
+		<div style="font-size: 30px; margin: 10px">
+			<h2>Create a new account</h2>
+		</div>
+		<div style=" margin: 10px">
+			Its quick and easy
+		</div>
+		<div>
+			<form action="registered.html">
+					<input type="text" name="firstname" placeholder="First name" required>
+					<input type="text" name="sirname" placeholder="Last name" required><br>
+					<input type="email" name="email" placeholder="Email address" required><br>
+					<input type="password" name="pwd" placeholder="Password" required><br>
+					<label for="dob">Date of birth</label><br>
+					<input type="Date" name="Date" id="Date"><br>
+					<label>Gender</label><br>
+					<input type="radio" name="male" value="male" id="male">
+					<label for="male">male</label>
+					<input type="radio" name="female" value="female" id="female">
+					<label for="female">male</label><br>
+					<input type="submit" name="signup" value="Sign Up" style="cursor: pointer;">
+			</form>
+	
+
+		</div>
+			
+	</div>
+		
+</body>
+</html>
